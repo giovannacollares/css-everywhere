@@ -1,0 +1,99 @@
+/*Barra de Navegação*/
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+
+  } 
+  .topnav a {
+    float: right;
+    color: #ddd;
+    text-align: center;
+    padding: 20px 60px;
+    border-right: solid #ddd 1px ;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+  }
+  .topnav a.active {
+    background-color:#00b9a1;
+    color: white;
+  } 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li  :hover {
+    background-color: #ddd;
+    color: #00b9a1;
+  }
+  li {
+    display: inline;
+  }
+/*Fim da Barra de Navegação*/
+
+/*Conteúdo do Repositório*/
+
+.tgButton {
+    width: 400px;
+    height: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 200px;
+    background-color: transparent;
+    background-image: url("pngegg.png");
+	border: 1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color: #202020;
+	font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px whitesmoke ;
+    font-weight:bold;
+	text-decoration:none;
+}
+
+.tgButton:hover {
+
+    background-color: #00b9a1;
+}
+
+.button {
+    width: 400px;
+    height: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 200px;
+    background-color:transparent;
+	border: 1px solid #202020;
+	display:inline-block;
+	cursor:pointer;
+	color: #202020;
+	font-family: 'Press Start 2P', cursive;
+    font-size:16px;
+    text-shadow: 2px 2px 0px whitesmoke;
+    font-weight:bold;
+	text-decoration:none;
+}
+
+.button:hover {
+
+    background-color: #00b9a1;
+    background-image: url("https://media0.giphy.com/media/fnfONXQS7MmHi2AcsJ/source.gif");
+    background-position: center;
+    background-size: cover;
+
+}
+/*Fim do Conteúdo do Repositório*/
+
+/*Rodapé*/
+footer {
+  font-size: 8px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+/*Fim do Rodapé*/
