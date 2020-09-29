@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<!--importação da css externa-->
+    <link rel="stylesheet" href="rainingcats.css">
+    <title>Toró de Gatinhos</title>
+</head>
+<body>
+<!--animação de fundo da página-->
+    <div class="cats">
+    <style rel="stylesheet" scoped="scoped" type="text/css">
+/* definição dos parâmetros da imagem a ser animada*/
+    .cats{
+      background: white; 
+      background-image: url("pngegg.png"); 
+      background-repeat: repeat;
+      height: auto;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      /*define que a animação de nome 'rain' vai ter 6 segundos e se comportar em linha reta infinitamente*/
+      animation: rain 6s linear infinite; 
+      /*a mesma coisa só que pra diferentes prefixos de navegadores.*/
+      -webkit-animation: rain 4s linear infinite;
+      -moz-animation: rain 4s linear infinite;
+      -ms-animation: rain 4s linear infinite;
+      }
+/* posicionamento da imagem escolhida pra ser animada */
+    @keyframes rain {
+        0% {background-position: center 0%, center 0%, center 0%;}
+        100% {background-position: center 1120px, center 1120px, center 1120px;}
+      }
+      /*mesma coisa pra diferentes prefixos de navegadores.*/
+      @-moz-keyframes rain {
+        0% {background-position: center 0%, center 0%, center 0%;}
+        100% {background-position: center 1120px, center 1120px, center 1120px;}
+      }
+      @-webkit-keyframes rain {
+        0% {background-position: center 0%, center 0%, center 0%;}
+        100% {background-position: center 1120px, center 1120px, center 1120px;}
+      }
+      @-ms-keyframes rain {
+        0% {background-position: center 0%, center 0%, center 0%;}
+        100% {background-position: center 1120px, center 1120px, center 1120px;}
+      }
+    </style>
+<!-- fim da animação de fundo da página-->
+
+<!--tamanho da página-->
+    <div class="container">
+    <style rel="stylesheet" scoped="scoped" type="text/css">
+      .container{
+          max-width: 1100px;
+          max-height: 800px;
+          width: 1100px;
+          height: 800px;
+          margin: 0 auto;
+        }
+    </style>
+<!--fim do tamanho da página-->
+
+<!--botão para voltar a página inicial-->
+    <div class="backButton" align="right">
+      <a href="https://giovannacollares.github.io/css-everywhere" class="backButton">voltar</a>
+    </div>
+<!--fim do botão para voltar a página inicial-->
+    </div>
+    </div>
+</body>
+</html>

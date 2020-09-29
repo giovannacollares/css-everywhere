@@ -1,0 +1,25 @@
+a.backButton {
+	background-color:transparent;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Courier New;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 42px;
+	text-decoration:none;
+}
+a.backButton:hover {
+    background-color:darkgoldenrod;
+    opacity: 60%;
+}
+a.backButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
