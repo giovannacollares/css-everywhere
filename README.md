@@ -2,7 +2,7 @@
 
 <div align="center"><img src="http://img.shields.io/static/v1?label=License&message=MIT&color=blue&style=for-the-badge"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=yellow&style=for-the-badge"></div>
 <br><br>
-<p align="right">O 'CSS Everywhere' é um repositório que contém as minhas experiências com CSS.<br>
+<p align="center">O 'CSS Everywhere' é um repositório que contém as minhas experiências com CSS.<br>
 No momento os códigos possuem CSS In Line, Internal e External tudo junto, por falta de habilidade.<br>
 <strike>Eu gostaria que todos fossem external mas eu ainda me deparo com problemas que não consigo resolver de forma externa</strike>.<br>
 Tento fazer com que os códigos sejam o mais claros e coesos o possível,<br> mas como ainda sou uma principiante nisso pode ser que eles aparentem confusos para alguns.<br>
